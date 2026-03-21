@@ -21,3 +21,9 @@ a = 12
 b = 24
 divide = a * b
 print("Division = ", divide)
+
+#Remainder
+a = 500
+b = 200
+modulo = a % b
+print("Remainder = ", modulo)
