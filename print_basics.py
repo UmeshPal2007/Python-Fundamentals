@@ -1,11 +1,23 @@
 #Addition
 a = 1000
-b = 700
+b = 2000
 Sum = a + b
-print("Sum : ", Sum)
+print("Addition = ", Sum)
 
 #Subtraction
 a = 1000
 b = 700
 difference = a - b
-print("Difference : ", difference)
+print("Subtraction = ", difference)
+
+#Multiplication
+a = 24
+b = 10
+multiply = a * b
+print("Multiplication = ", multiply)
+
+#Division
+a = 12
+b = 24
+divide = a * b
+print("Division = ", divide)
