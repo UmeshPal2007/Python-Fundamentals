@@ -27,3 +27,9 @@ a = 500
 b = 200
 modulo = a % b
 print("Remainder = ", modulo)
+
+#Power Operator
+a = 2
+b = 3
+pow = a ** b #2*2*2
+print("Power = ", pow)
