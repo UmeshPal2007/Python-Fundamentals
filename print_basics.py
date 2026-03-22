@@ -72,3 +72,14 @@ print("number :", num)
 num = 10
 num **= 5
 print("number :", num)
+
+#Logical Operators(not, and, or)
+
+print("NOT Operator =",not True) #False
+print("NOT Operator =",not False) #True
+
+val1 = True
+val2 = False
+print("AND operator:", val1 and val2)
+
+print("OR operator:", val1 or val2)
