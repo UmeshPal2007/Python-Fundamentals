@@ -79,7 +79,7 @@ print("NOT Operator =",not True) #False
 print("NOT Operator =",not False) #True
 
 val1 = True
-val2 = FTrue
+val2 = True
 print("AND operator:", val1 and val2) #returns True only if val1 and val2- both are True, otherwise it returns False.
 
 print("OR operator:", val1 or val2) #returns True only if val1 or val2- is True, otherwise it returns False.
