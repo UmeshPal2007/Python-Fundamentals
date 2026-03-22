@@ -46,3 +46,29 @@ print(a >= b) #True
 print(a <= b) #False
 print(a > b) #True
 print(a < b) #False
+
+#Assignment Operators
+
+num = 10
+num += 5
+print("number :", num)
+
+num = 10
+num -= 5
+print("number :", num)
+
+num = 10
+num *= 5
+print("number :", num)
+
+num = 10
+num /= 5
+print("number :", num)
+
+num = 10
+num %= 5
+print("number :", num)
+
+num = 10
+num **= 5
+print("number :", num)
