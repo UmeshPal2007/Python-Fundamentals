@@ -16,3 +16,12 @@ print("Length Of your name : ", len(name))
 
 str = "If I spend $10 on lunch, $5 on coffee, $20 on gas, $15 on snacks, and $50 on a new shirt, I will have spent a total of $100 today."
 print("Total Number of Count : ",(str.count("$")))
+
+
+#write a program to check if a nunber entrered by the user is odd or even.
+
+num = int(input("Enter a number : "))
+if (num % 2 == 0):
+    print("Number is : Even")
+else:
+    print("Number is Odd")
