@@ -11,3 +11,8 @@ print("Your Marks are : ", marks)
 
 name= str(input("Enter Your First Name : "))
 print("Length Of your name : ", len(name))
+
+#Write a Program to find the occurence of "$" in a String.
+
+str = "If I spend $10 on lunch, $5 on coffee, $20 on gas, $15 on snacks, and $50 on a new shirt, I will have spent a total of $100 today."
+print("Total Number of Count : ",(str.count("$")))
