@@ -37,3 +37,11 @@ elif(b >= c):
     print(("Second Number Is Grestest : " , b))
 else:
     print(("Third Number Is Grestest : " , c))
+
+#Write a Program to check if a number  is a multiple of 7 or not.
+
+x = int(input("enter number: "))
+if(x % 7 == 0):
+    print("multiple of 7")
+else:
+    print("not a multiple")
