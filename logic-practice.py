@@ -25,3 +25,15 @@ if (num % 2 == 0):
     print("Number is : Even")
 else:
     print("Number is Odd")
+
+#write a program to find the Greatest of 3 numbers entered by the user.
+
+a= int(input("Enter First Number : "))
+b= int(input("Enter Second Number : "))
+c= int(input("Enter Third Number : "))
+if(a >= b and a >= c):
+    print("First Number Is Grestest : " , a)
+elif(b >= c):
+    print(("Second Number Is Grestest : " , b))
+else:
+    print(("Third Number Is Grestest : " , c))
