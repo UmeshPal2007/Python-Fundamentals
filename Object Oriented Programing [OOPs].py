@@ -37,3 +37,51 @@ public class Main {
 		//System.out.println(ac3.account_no); [account_no has private access in Account]
     }
 }
+
+
+//Constructors and Shallow copy 
+
+class Student {
+    String name;
+    double cgpa;
+
+    // Standard Constructor
+    Student(String name, double cgpa) { 
+        this.name = name;
+        this.cgpa = cgpa;
+    }
+
+    // Copy Constructor
+    Student(Student other) {
+        this.name = other.name;
+        this.cgpa = other.cgpa;
+    }
+
+    void displayinfo() {
+        System.out.println("Name : " + this.name);
+        System.out.println("CGPA : " + this.cgpa);
+    }
+}
+
+public class Main { // Changed to match filename Main.java
+    public static void main(String args[]) {
+        // 1. Create the original student object
+        Student s1 = new Student("Umesh Pal", 9.8);
+
+        // 2. Use the Copy Constructor to create a duplicate
+        // This creates a NEW object in memory with the same values
+        Student s2 = new Student(s1);
+
+        // 3. Modify the copy (the "Task")
+        // Notice that we only change s2
+        s2.name = "Umesh Pal - Updated Profile";
+        s2.cgpa = 9.9;
+
+        // 4. Compare the outputs
+        System.out.println("--- Original Student Data ---");
+        s1.displayinfo(); 
+
+        System.out.println("\n--- Modified Copy Data ---");
+        s2.displayinfo();
+    }
+}
